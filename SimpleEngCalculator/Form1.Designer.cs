@@ -1,6 +1,6 @@
 ﻿namespace SimpleEngCalculator
 {
-    partial class Form1
+    partial class FormMain
     {
         /// <summary>
         /// Required designer variable.
@@ -28,20 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.labelTest = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Form1
+            // labelTest
+            // 
+            this.labelTest.AutoSize = true;
+            this.labelTest.Location = new System.Drawing.Point(99, 41);
+            this.labelTest.Name = "labelTest";
+            this.labelTest.Size = new System.Drawing.Size(50, 13);
+            this.labelTest.TabIndex = 0;
+            this.labelTest.Text = "labelTest";
+            // 
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 271);
-            this.Name = "Form1";
+            this.ClientSize = new System.Drawing.Size(709, 313);
+            this.Controls.Add(this.labelTest);
+            this.Name = "FormMain";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormMain_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label labelTest;
     }
 }
 
