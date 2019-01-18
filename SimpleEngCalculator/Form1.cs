@@ -19,6 +19,8 @@ namespace SimpleEngCalculator
         private void FormMain_Load(object sender, EventArgs e)
         {
             labelTest.Text = "test local commit";
+            // изменение 1 Комитить комитит , а пушить -- хер!
+
         }
     }
 }
