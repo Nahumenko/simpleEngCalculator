@@ -9,12 +9,19 @@ using System.Windows.Forms;
 
 namespace SimpleEngCalculator
 {
-    public partial class Form1 : Form
+    public partial class FormMain : Form
     {
-        public Form1()
+        public FormMain()
         {
             InitializeComponent();
             // это комбо 2!
+        }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            labelTest.Text = "test local commit";
+            // изменение 1 Комитить комитит , а пушить -- хер!
+
         }
     }
 }
