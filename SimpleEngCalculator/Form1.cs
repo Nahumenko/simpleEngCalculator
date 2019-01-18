@@ -14,6 +14,7 @@ namespace SimpleEngCalculator
         public Form1()
         {
             InitializeComponent();
+            // это комбо 2!
         }
     }
 }
